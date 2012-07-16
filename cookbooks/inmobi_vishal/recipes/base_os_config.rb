@@ -7,8 +7,9 @@ template "/etc/hostname" do
     variables(
       :hostname_fqdn => hostname_fqdn
     )
+  end
 bash "set_hostname" do
-    code <<-EOH
+    code << EOH
       start hostname
     EOH
   end
