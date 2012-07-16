@@ -4,6 +4,19 @@
   "name": "inmobi_vishal",
   "maintainer_email": "ops@example.com",
   "attributes": {
+    "inmobi_vishal/rs_hostname": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "inmobi_vishal::base_os_config"
+      ],
+      "description": "The First recipes config for vishal",
+      "display_name": "Nickname - Vihsal hosts"
+    }
   },
   "license": "Apache 2.0",
   "suggestions": {
@@ -16,6 +29,7 @@
   "recommendations": {
   },
   "recipes": {
+    "inmobi_vishal::base_os_config": "Configures basic OS files"
   },
   "groupings": {
   },
