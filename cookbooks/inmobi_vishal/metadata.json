@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+  },
+  "name": "inmobi_vishal",
+  "maintainer_email": "ops@example.com",
+  "attributes": {
+  },
+  "license": "Apache 2.0",
+  "suggestions": {
+  },
+  "platforms": {
+  },
+  "maintainer": "Example Com",
+  "long_description": "",
+  "version": "0.1.0",
+  "recommendations": {
+  },
+  "recipes": {
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs/Configures inmobi_vishal",
+  "providing": {
+  }
+}
